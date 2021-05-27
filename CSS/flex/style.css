@@ -1,0 +1,82 @@
+/* 通用start */
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+div
+{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+span
+{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+s,i,em{font-style:normal;text-decoration:none;display: flex;}
+/* 通用end */
+
+/* 单项目start */
+.box-one-top-left
+{
+    display: flex;/* Flexible Box的缩写，即"弹性布局" */
+}
+.box-one-top-center
+{
+    display: flex;
+    justify-content: center;/* justify-content属性定义了项目在主轴上的对齐方式 */
+}
+.box-one-top-right
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.box-one-center-left
+{
+    display: flex;
+    align-items: center;/* align-items属性定义项目在交叉轴上如何对齐，设置交叉轴对齐方式，可以垂直移动主轴 */
+}
+.box-one-center-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-one-center-right
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box-one-bottom-left
+{
+    display: flex;
+    align-items: flex-end;
+}
+.box-one-bottom-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box-one-bottom-right
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* 单项目end */
+
+/* 双项目start */
+.box-two-lt-rt
+{
+    display: flex;
+    justify-content: space-between;
+}
